@@ -1,0 +1,21 @@
+:root {
+  --font-family-heading: "Playfair Display", serif;
+  --font-family-handwriting: "Calligraffitti", cursive;
+  --font-family-main: "Poppins", sans-serif;
+  --branding-color-primary: #a2a885;
+  --branding-color-secondary: #f8d8db;
+  --branding-color-dark: #8a9074;
+  --branding-color-light: #fcebe3;
+}
+
+h1 {
+  font-family: var(--font-family-heading);
+}
+
+h2 {
+  font-family: var(--font-family-handwriting);
+}
+
+p {
+  font-family: var(--font-family-main);
+}
