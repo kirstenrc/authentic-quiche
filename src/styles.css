@@ -8,14 +8,13 @@
   --branding-color-light: #fcebe3;
 }
 
-h1 {
-  font-family: var(--font-family-heading);
-}
-
-h2 {
-  font-family: var(--font-family-handwriting);
-}
-
-p {
+body {
   font-family: var(--font-family-main);
+}
+
+.navbar-brand {
+  margin: 0 50px 0 0;
+}
+.nav-link {
+  margin: 0 50px 0 0;
 }
