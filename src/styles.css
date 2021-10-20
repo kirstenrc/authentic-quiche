@@ -38,6 +38,25 @@ p {
   line-height: 30px;
 }
 
+footer .content {
+  text-align: center;
+}
+
+footer .email-link {
+  color: #4c494d;
+  font-size: 30px;
+}
+
+footer .social-links a {
+  background: var(--branding-color-light);
+  border-radius: 50%;
+  color: #e2c5cf;
+  font-size: 20px;
+  margin: 0 20px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
 .navbar-brand {
   margin: 0 50px 0 0;
 }
@@ -111,12 +130,16 @@ p {
   margin: 0;
 }
 
-.content-hero a {
+.content {
+  text-align: center;
+}
+
+.link {
   color: var(--branding-color-primary);
   text-decoration: none;
 }
 
-.content-hero a:hover {
+.link:hover {
   color: var(--branding-color-dark);
   text-decoration: underline;
 }
