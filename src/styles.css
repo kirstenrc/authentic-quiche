@@ -28,6 +28,10 @@ h2 {
   font-size: 38px;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 p {
   font-size: 16px;
   font-weight: normal;
@@ -43,7 +47,6 @@ p {
 
 .hero {
   background: var(--branding-color-light);
-  font-size: 96px;
   padding: 160px 20px;
   text-align: center;
 }
@@ -55,6 +58,7 @@ p {
 }
 
 .hero h1 {
+  font-size: 96px;
   font-weight: 700;
 }
 
@@ -62,7 +66,6 @@ p {
   color: #4c494d;
   font-family: var(--font-family-handwriting);
   font-size: 30px;
-  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -88,6 +91,25 @@ p {
   object-fit: cover;
 }
 
+.content-hero {
+  background: var(--branding-color-light);
+  padding: 80px 10px;
+  text-align: center;
+}
+.content-hero h1 {
+  font-size: 64px;
+}
+
+.content-hero h2 {
+  font-family: var(--font-family-handwriting);
+  font-size: 28px;
+}
+
+.content-hero .intro-line {
+  color: #4c494d;
+  font-size: 22px;
+  margin: 0;
+}
 .recipe-description {
   padding: 120px 60px 0;
 }
