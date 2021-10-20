@@ -5,11 +5,19 @@
   --branding-color-primary: #a2a885;
   --branding-color-secondary: #f8d8db;
   --branding-color-dark: #8a9074;
-  --branding-color-light: #fcebe3;
+  --branding-color-light: #fef5f1;
 }
 
 body {
   font-family: var(--font-family-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family-heading);
 }
 
 .navbar-brand {
@@ -17,4 +25,40 @@ body {
 }
 .nav-link {
   margin: 0 50px 0 0;
+}
+
+.hero {
+  background: var(--branding-color-light);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.hero p {
+  color: #4c494d;
+  font-size: 32px;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.hero h2 {
+  color: #4c494d;
+  font-family: var(--font-family-handwriting);
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.btn-branding {
+  background: var(--branding-color-secondary);
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding :hover {
+  color: white;
 }
