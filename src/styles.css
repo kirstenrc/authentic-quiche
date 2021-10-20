@@ -110,6 +110,17 @@ p {
   font-size: 22px;
   margin: 0;
 }
+
+.content-hero a {
+  color: var(--branding-color-primary);
+  text-decoration: none;
+}
+
+.content-hero a:hover {
+  color: var(--branding-color-dark);
+  text-decoration: underline;
+}
+
 .recipe-description {
   padding: 120px 60px 0;
 }
