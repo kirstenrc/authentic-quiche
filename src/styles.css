@@ -153,6 +153,10 @@ footer .social-links a {
   padding: 120px 60px 0;
 }
 
+.profile-img {
+  width: 350px;
+}
+
 @media (max-width: 540px) {
   h1 {
     font-size: 54px;
